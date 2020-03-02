@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Basic forms</h1>
+	<form>
+		<h2>Login Form</h2>
+		<h4>Enter email and password</h4>
+		<input type="email" name="" value="username">
+		<input type="password" name="">
+		<input type="submit" name="" name="submit">
+	</form>
+
+	<h1>Froms with action</h1>
+	<form action="http://www.facebook.com" method="get">
+		<h2>Login Form with action</h2>
+		<h4>Enter email and password</h4>
+		<input type="email" name="username">
+		<input type="password" name="">
+		<input type="submit" name="" value="submit">
+	</form>
+
+	<h1>Froms with repeated labels</h1>
+	<form>
+		<label>
+			<input type="email" name="">
+			<input type="submit" name="" value="submit1">
+		</label>
+		<label>
+			<input type="email" name="">
+			<input type="submit" name="" value="submit2">
+		</label>
+	</form>
+
+	<h1>Forms with placeholders and required</h1>
+	<form>
+		<label>
+			<input type="email" name="" placeholdNer="required" required>
+			<input type="password" name="" placeholder="not required" required>
+			<input type="submit" name="" value="submit">
+		</label>
+	</form>
+
+	<h1>Forms with labels, buttons. text area and select</h1>
+
+	<form action="dummy.html" method="get">
+		<h2> are you from US?</h2>
+		<label for="inus"> Yes</label>
+		<input id="inus" type="radio" name="loc" value="yes">
+		<label for="outus">No</label>
+		<input id="outus" type="radio" name="loc" value="no">
+		<h4> How was your stay</h4>
+		<select name="stars">
+			<option value="great">3</option>
+			<option value="okay">2</option>
+			<option value="bad">1</option>
+		</select>
+		<input type="submit" name="">
+	</form>
+
+
+</body>
+</html>
